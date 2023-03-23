@@ -12,13 +12,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    /* height: 100vh; */
 }
 
 #container{
     background-color: rgba(0,0,0,0.3);
     margin: auto;
-    /* height: 1036px; */
     max-width: 1240px;
     margin-top: 30px;
     padding: 1rem;
@@ -34,6 +32,7 @@ header{
 
 header h1{
     font-size: 4rem;
+    letter-spacing: 0.05em;
 }
 
 #form-container{
@@ -41,9 +40,10 @@ header h1{
     margin: auto;
     width: 500px;
     padding: 30px 40px;
+    margin-bottom: 100px;
 }
 
-#name, #age, #email, #content, #feedback{
+#name, #age, #email, #dropdown, #feedback{
     width: 100%;
     padding: 10px;
     margin-top: 10px;
@@ -53,11 +53,31 @@ header h1{
     margin-top: 5px;
 }
 
+#checkbox, #radio{
+    margin-top: 10px;
+}
+
 textarea{
     resize: none;
 }
 
-#submit{
-    width: 60px;
-    height: 30px;
+.form-submit{
+    width: 170px;
+    margin: auto;
+}
+
+#form-button{
+    width: 140px;
+    height: 45px;
+    background-color: #009FD6;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+#form-button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 110%;
+    font-weight: bold;
 }
