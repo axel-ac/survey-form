@@ -11,7 +11,7 @@ survey-form (folder)
 |----index.html 
 ```
 ## Project-gif
-
+![survey-form](https://user-images.githubusercontent.com/102467587/227459857-8e525587-c5b2-4379-9fd2-7a53ba8299ea.gif)
 ## Project-link
 
 ### At the end of the project, following topics are to be covered;
