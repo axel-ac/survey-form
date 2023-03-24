@@ -6,10 +6,9 @@ Project aims to create a Survey Form.
 survey-form (folder)
 |
 |----readme.md                   
-|----solution
-        |----index.html  
-        |----style.css   
-        |----result.html 
+|----img (folder) 
+|----style.css   
+|----index.html 
 ```
 ## Project-gif
 
