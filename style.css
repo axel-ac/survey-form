@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    max-height: 100%;
+    max-height: 90vh;
 }
 
 span{
@@ -24,12 +24,12 @@ header{
 }
 
 header h1{
-    font-size: 4rem;
-    letter-spacing: 0.05em;
+    font-size: 5rem;
+    letter-spacing: 0.09em;
 }
 
 #form-container{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
     margin: auto;
     width: 500px;
     padding: 30px 40px;
